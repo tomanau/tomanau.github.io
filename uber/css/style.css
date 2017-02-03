@@ -1,0 +1,353 @@
+@font-face {
+  font-family: 'clan-med';
+  src: url("../fonts/clan-med-webfont.ttf");
+ }
+
+ @font-face {
+   font-family: 'clan-book';
+   src: url("../fonts/clan-book-webfont.ttf");
+  }
+
+h1 {
+  color: white;
+  font-family: "clan-med", sans-serif;
+  font-size: 36px;
+  line-height: : 39px;
+}
+
+h2 {
+  color: #333333;
+  font-family: "clan-med", sans-serif;
+  font-size: 30px;
+  line-height: 33px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  border-bottom: solid 2.5px #1FBAD6;
+  margin: 20px auto 10px auto;
+}
+
+h3 {
+  color: black;
+  font-family: "clan-book", sans-serif;
+  font-size: 24px;
+  line-height: : 26px;
+}
+
+h4 {
+  color: black;
+  font-family: "clan-book", sans-serif;
+  font-size: 18px;
+  line-height: : 19px;
+}
+
+
+p {
+  color: black;
+  font-family: "clan-book", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+body {
+  font-family: "clan-book", sans-serif;
+  margin-top: -70px;
+}
+
+      /*NAVBAR*/
+
+  .navbar-default {
+  	background-color: #FFFFFF;
+  	border: none;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+  	color: #333333;
+  	font-weight: 700;
+  	font-size: 12px;
+  	text-transform: uppercase;
+  }
+
+  .navbar-default .navbar-nav>li.active>a,
+  .navbar-default .navbar-nav>li>a:hover {
+  	color: #1FBAD6;
+  	background-color: #FFFFFF;
+  }
+
+  .navbar-brand > img {
+  	height: 22px;
+  }
+
+
+      /*HERO*/
+
+.poster {
+  position: relative;
+  height: 100vh;
+  background-image: url(../img/hero-bg-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hidden-sm.poster img {
+  display: none;
+}
+
+.background {
+  position: absolute;
+  height: 100vh;
+  background-color: #333333;
+  opacity: 0.7;
+  width: 100vw;
+}
+
+
+.iphone {
+  padding: 120px 0 0 40px;
+}
+
+.texte h1{
+  padding-top: 335px;
+  text-align: right;
+  display: block;
+
+}
+
+.texte p{
+  padding-left: 1px;
+  text-align: right;
+  display: block;
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.fa-list {
+  padding-right: 10px
+}
+
+.fa-cloud-download {
+padding-right: 10px
+}
+
+.button-ensavoirplus {
+  display: inline-block;
+  color: #1FBAD6;
+  background-color: white;
+  border: solid 2px white;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-family: "clan-book", sans-serif;
+  font-size: 15px;
+  padding: 10px 30px;
+  margin: 20px 20px 0 0;
+  float: right;
+}
+
+.button-telecharger {
+  display: inline-block;
+  color: white;
+  background-color: transparent;
+  border: solid 2px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-family: "clan-book", sans-serif;
+  font-size: 15px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  float: right;
+}
+
+.button-telecharger:hover {
+  background-color: white;
+  color: black;
+  border: solid white;
+}
+
+.button-ensavoirplus:hover {
+  color: black;
+  border: solid white;
+}
+
+/*FONCTIONNEMENT*/
+
+.section {
+  text-align: center;
+  padding: 100px;
+}
+
+.section .fa {
+  color: #1FBAD6;
+  font-size: 40px;
+}
+
+
+
+
+/*APPLICATION*/
+
+.section2 {
+  background-color: #FAFAFA;
+  padding: 100px;
+  position: relative;
+}
+
+.section2title {
+    text-align: center;
+}
+
+
+.section2title p {
+  padding-top: 10px;
+  padding-bottom: 40px
+}
+
+.section2 img {
+  margin: 0 auto;
+}
+
+.section2 p {
+  margin-bottom: 40px;
+}
+
+.section2 .text-right p {
+  margin-right: 20px;
+}
+.section2 .text-right h4 {
+  margin-right: 20px;
+}
+.section2 .text-left p {
+  margin-left: 20px;
+}
+.section2 .text-left h4 {
+  margin-left: 20px;
+}
+
+.section2 .fa {
+  position: absolute;
+  color: #1FBAD6;
+  font-size: 30px;
+}
+
+.section2  .text-right {
+  margin-top: 120px;
+}
+
+.section2  .text-left {
+  margin-top: 120px;
+}
+
+.section2  .text-right .fa {
+  right: -20px;
+}
+
+.section2  .text-left .fa {
+  left: -20px;
+}
+
+
+
+
+/* TEMOIGNAGES*/
+
+.section3 {
+    padding: 100px;
+}
+
+.section3 p {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+    /*CAROUSEL*/
+
+
+.item img {
+  width: 110px;
+  border: solid 5px rgba(31,186,214, 0.3);
+  border-radius: 50%;
+  margin: 50px auto 10px auto
+
+}
+
+.carousel {
+  height: 400px;
+  width: 1150px;
+  margin: 0 auto 0 auto;
+}
+
+/*.carousel-caption p:active {
+  color: black;
+  font-family: "clan-book", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-shadow: none;
+  margin-bottom: 10px;
+}*/
+
+.carousel-caption {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.carousel-caption p {
+  color: black;
+  font-family: "clan-book", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-shadow: none;
+  /*margin-bottom: -500px;*/
+  padding: 0 80px 0 80px;
+  margin: 0 25px 0 25px;
+}
+
+.carousel-indicators li {
+  background-color: #1FBAD6;
+  height: 12px;
+  width: 12px;
+}
+
+.carousel-indicators li.active {
+  background-color: white;
+  border: solid 1px #1FBAD6;
+  height: 12px;
+  width: 12px;
+  margin-bottom: 1px;
+}
+
+.glyphicon-chevron-left {
+  color: #1FBAD6;
+}
+
+.glyphicon-chevron-right {
+  color: #1FBAD6;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+
+/*.poster img {
+  display: none;
+}*/
+
+
+}
