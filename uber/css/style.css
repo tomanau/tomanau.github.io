@@ -259,10 +259,12 @@ padding-right: 10px
 
 .background2 {
   position: absolute;
-  height: 435px;
+  top: 0;
+  right: 0;
+  height: 100%;
   background-color: #1FBAD6;
-  opacity: 0.9;
   width: 100vw;
+  text-align: center;
 }
 
 .section2b h2 {
@@ -289,7 +291,6 @@ padding-right: 10px
   font-family: "clan-book", sans-serif;
   font-size: 15px;
   padding: 10px 30px;
-  margin-top: 50px;
   text-align: center;
 }
 
