@@ -1,7 +1,7 @@
 # Projet Uber
 
 - Page d'accueil
-  Page contrat
+- Page contrat
 
 
 # Titre
