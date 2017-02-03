@@ -10,7 +10,7 @@
 - Liste
 1. Liste numérotée
 
-- [] Page d'accueil
+- [ ] Page d'accueil
 - [X] Page contact
 
 
