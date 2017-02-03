@@ -56,7 +56,7 @@ p {
 
 body {
   font-family: "clan-book", sans-serif;
-  margin-top: -70px;
+  /*margin-top: -70px;*/
 }
 
       /*NAVBAR*/
@@ -94,9 +94,6 @@ body {
   background-position: center;
 }
 
-.hidden-sm.poster img {
-  display: none;
-}
 
 .background {
   position: absolute;
@@ -135,7 +132,7 @@ body {
 padding-right: 10px
 }
 
-.button-ensavoirplus {
+.btn-cta-outline {
   display: inline-block;
   color: #1FBAD6;
   background-color: white;
@@ -149,7 +146,7 @@ padding-right: 10px
   float: right;
 }
 
-.button-telecharger {
+.btn-cta-white {
   display: inline-block;
   color: white;
   background-color: transparent;
@@ -163,13 +160,13 @@ padding-right: 10px
   float: right;
 }
 
-.button-telecharger:hover {
+.btn-cta-white:hover {
   background-color: white;
   color: black;
   border: solid white;
 }
 
-.button-ensavoirplus:hover {
+.btn-cta-outline:hover {
   color: black;
   border: solid white;
 }
@@ -193,14 +190,13 @@ padding-right: 10px
 
 .section2 {
   background-color: #FAFAFA;
-  padding: 100px;
+  padding: 50px;
   position: relative;
 }
 
 .section2title {
     text-align: center;
 }
-
 
 .section2title p {
   padding-top: 10px;
@@ -234,11 +230,11 @@ padding-right: 10px
   font-size: 30px;
 }
 
-.section2  .text-right {
+.section2 .text-right {
   margin-top: 120px;
 }
 
-.section2  .text-left {
+.section2 .text-left {
   margin-top: 120px;
 }
 
@@ -251,6 +247,68 @@ padding-right: 10px
 }
 
 
+/* NEWSLETTER*/
+
+.poster2 {
+  position: relative;
+  height: 435px;
+  background-image: url(../img/newsletter-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.background2 {
+  position: absolute;
+  height: 435px;
+  background-color: #1FBAD6;
+  opacity: 0.9;
+  width: 100vw;
+}
+
+.section2b h2 {
+  color: white;
+  padding-top: 100px;
+}
+
+.section2b h2::after {
+  border-bottom: solid 2.5px white;}  
+
+.section2b p {
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.section2b input{
+  display: inline-block;
+  color: #1FBAD6;
+  background-color: white;
+  border: solid 2px white;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  font-family: "clan-book", sans-serif;
+  font-size: 15px;
+  padding: 10px 30px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.section2b button {
+  display: inline-block;
+  color: black;
+  background-color: white;
+  border: solid 2px white;
+  border-radius: 0px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-family: "clan-med", sans-serif;
+  font-size: 14px;
+  padding: 12px 30px 9px 30px;
+  text-align: center;
+  margin-bottom: 2px;
+  
+
+}
 
 
 /* TEMOIGNAGES*/
@@ -275,10 +333,14 @@ padding-right: 10px
   margin: 50px auto 10px auto
 
 }
+  /*height: 100vh;
+  background-color: #333333;
+  opacity: 0.7;
+  width: 100vw;}*/
 
 .carousel {
   height: 400px;
-  width: 1150px;
+  width: 90vw;
   margin: 0 auto 0 auto;
 }
 
@@ -343,11 +405,87 @@ padding-right: 10px
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
 
-/*.poster img {
-  display: none;
-}*/
 
+
+}
+
+@media (max-width: 768px) {
+
+.texte h1{
+  padding-top: 200px;
+  text-align: center;
+}
+
+.hero p {
+    text-align: center;
+}
+
+.btn-cta-outline {
+  margin: 20px 0 20px 0;
+}
+
+
+/*FONCTIONNEMENT*/
+
+
+.section p {
+  margin: 0 0 50px 0;
+}
+
+.section {
+  padding: 50px 20px 0 20px;
+}
+
+
+/*APPLICATION*/
+
+.section2 {
+  padding: 5px
+}
+
+.section2 p {
+  text-align: center;
+}
+
+.section2 h4 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.section2 .fa {
+  position: static;
+  display: block;
+  color: #1FBAD6;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section2  .text-right .fa {
+  right: 0px;
+}
+
+.section2  .text-left .fa {
+  left: 0px;
+}
+
+.section2 .text-right {
+  margin-top: 12px;
+}
+
+.section2 .text-left {
+  margin-top: 50px;
+}
+
+/*  NEWSLETTER */
+
+
+
+/* TEMOIGNAGES*/
+
+.section3 {
+    padding: 50px;
+}
 
 }

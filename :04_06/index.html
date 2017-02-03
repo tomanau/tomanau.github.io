@@ -51,7 +51,7 @@
       </div>
     </nav>
 
-<!-- Accueil -->
+<!-- HERO -->
       <div class="hero" id="accueil">
         <div class="poster">
           <div class="background"></div>
@@ -61,13 +61,15 @@
                 <div class="texte">
                   <h1>Déplacez-vous, en un clic</h1>
                   <p>Uber est le moyen le plus simple de se déplacer en ville. Appuyez sur un bouton pour commander un véhicule là où vous vous trouvez. Votre chauffeur sait exactement où aller</p>
-                  <button class="button-telecharger"><i class="fa fa-cloud-download"></i>télécharger</button>
-                  <button class="button-ensavoirplus"><i class="fa fa-list"></i>en savoir plus</button>
+                  <button class="btn btn-cta btn-cta-white hidden-xs"><i class="fa fa-cloud-download"></i>télécharger</button>
+                  <button class="btn btn-cta btn-cta-outline hidden-xs"><i class="fa fa-list"></i>en savoir plus</button>
+                  <button class="btn btn-cta btn-cta-outline visible-xs btn-block"><i class="fa fa-list"></i>en savoir plus</button>
+                  <button class="btn btn-cta btn-cta-white visible-xs btn-block"><i class="fa fa-cloud-download"></i>télécharger</button>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="iphone">
-                  <img src="img/hero-phone.png">
+                  <img src="img/hero-phone.png" class="visible-md-block visible-lg-block">
                 </div>
               </div>
             </div>
@@ -128,7 +130,7 @@
                 </div>
                 <div class="col-md-4 text-left">
                   <i class="fa fa-car"></i>
-                  <h4>Commandez en un clic</h4>
+                  <h4>Progression de la course</h4>
                   <p>Choisissez votre service et indiquez votre destination. La photo de votre chauffeur et la description du véhicule apparaissent. Vous pouvez également suivre sa position sur la carte.</p>
                   <i class="fa fa-group"></i>
                   <h4>Toujours prêt, toujours disponible</h4>
@@ -141,6 +143,33 @@
             </div>
           </div>
 
+          <!-- NEWSLETTER -->
+          <div class="section2b" id="newsletter">
+            <div class="poster2">
+              <div class="background2"></div>  
+              <div class="container">
+                  <div class="col-md-12">
+                    <div class="section2btitle">
+                      <h2>newsletter</h2>
+                      <p>Recevez des promotions, tout au long de l'année.</p>
+                    </div>
+                    
+
+                    <form class="form-inline">
+                      <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Tapez votre Email ici...">
+                      </div>
+                      <button type="submit" class="btn btn-default">ENVOYER</button>
+                    </form>
+                    
+                    <!--<input type="email" name="email" placeholder="Tapez votre Email ici...">
+                    <button class="btn btn-default" type="submit">ENVOYER</button>-->
+                  
+                  
+                  </div>
+              </div>  
+            </div>
+          </div>
           <!-- TEMOIGNAGES -->
 
           <div class="section3" id="temoignages">
