@@ -10,8 +10,8 @@
 - Liste
 1. Liste numérotée
 
--[] Page d'accueil
--[X] Page contact
+- [] Page d'accueil
+- [X] Page contact
 
 
 README.MD permet de faire une ducumentation sur le projet
